@@ -1,0 +1,66 @@
+.ingreso{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-grisclaro);
+}
+.ingreso .ingreso-user h1{
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.ingreso .formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grisclaro);
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.ingreso .formulario .ingreso-user{
+    width: 90%;
+    align-self: center;
+    margin: 20px 0;
+}
+.ingreso .ingreso-user input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.ingreso .ingreso-user .ingreso-button{
+    background-color: var(--color-celeste);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 0 5px;
+}
+.ingreso .ingreso-user a{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--color-grisoscuro);
+}
+
+@media (min-width: 425px){
+    .ingreso  .ingreso-user h1{
+        font-size: 20px;
+    }
+    .ingreso .formulario{
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px){
+    .ingreso  .ingreso-user h1{
+        font-size: 25px;
+    }
+    .ingreso .ingreso-user input{
+        font-size: 25px;
+    }
+    .ingreso .ingreso-user .ingreso-button{
+        font-size: 20px;
+    }
+    .ingreso .ingreso-user a{
+        font-size: 15px;
+    }
+}
